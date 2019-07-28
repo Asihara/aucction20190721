@@ -1,3 +1,31 @@
 // Place all the styles related to the items controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header{
+
+  font-size : 30px ;
+  text-align: center;
+  background-color: aquamarine;
+
+}
+.footer{
+
+  font-size : 10 px;
+  text-align: center;
+}
+
+body{
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+}
+
+.body-image{
+  position: relative;
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  background: url("/オークションのフリーアイコン3.jpeg")  no-repeat;
+  // background-size: cover;
+  
+}

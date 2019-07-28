@@ -8,8 +8,13 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
+  
+  <div class="body-image">
+    <body>
+      <div class="header" >Day03 02 オークションアプリ</div>
+      <%= yield %>
+      <div class="footer" >制作:芦原亨</div>
+    </body>
+  </div>
 
-  <body>
-    <%= yield %>
-  </body>
 </html>
